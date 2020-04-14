@@ -7,7 +7,13 @@
     "module": "ESNext",
     "importHelpers": true,
     "jsx": "react",
-    "moduleResolution": "Node"
+    "moduleResolution": "Node",
+    "baseUrl": "./src",
+    "paths": {
+      "~/*": [
+        "./*"
+      ]
+    }
   },
   "include": ["./src"],
   "exclude": ["node_modules"]

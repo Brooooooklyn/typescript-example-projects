@@ -6,15 +6,25 @@
   "repository": "git@github.com:Brooooooklyn/typescript-example-projects.git",
   "author": "lynweklm@gmail.com",
   "license": "MIT",
-  "dependencies": {
-    "tslib": "^1.11.1"
+  "scripts": {
+    "build": "rm -rf dist && webpack"
   },
   "devDependencies": {
     "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.6",
+    "@types/webpack": "^4.41.11",
     "antd": "^4.1.3",
+    "core-js": "^3.6.5",
+    "happypack": "^5.0.1",
+    "html-webpack-plugin": "^4.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "typescript": "^3.8.3"
+    "ts-import-plugin": "^1.6.6",
+    "ts-loader": "^6.2.2",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   }
 }
