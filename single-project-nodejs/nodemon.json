@@ -1,0 +1,13 @@
+{
+  "delay": 1000,
+  "restartable": "rs",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "execMap": {
+    "ts": "ts-node -r tsconfig-paths/register"
+  },
+  "watch": [
+    "src/**/*.ts"
+  ]
+}
