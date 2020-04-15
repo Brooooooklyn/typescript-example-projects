@@ -1,0 +1,26 @@
+{
+  "name": "javascript-migrate-to-typescript",
+  "version": "1.0.0",
+  "description": "JavaScript project which need migrate to TypeScript",
+  "main": "index.js",
+  "repository": "https://github.com/Brooooooklyn/typescript-example-project",
+  "author": "lynweklm@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && webpack"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^16.9.6",
+    "core-js": "^3.6.5",
+    "happypack": "^5.0.1",
+    "html-webpack-plugin": "^4.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "ts-import-plugin": "^1.6.6",
+    "ts-loader": "^7.0.0",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
